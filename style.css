@@ -1,21 +1,40 @@
+/* Reset & Body */
 body {
   font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  background-color: #fbf3fc;
 }
 
+/* Navigation Bar */
+.navbar {
+  width: 100%;
+  background-color: #6cacf5;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Container */
 .container {
   background: white;
   padding: 20px;
+  margin: 30px auto;
   border-radius: 10px;
   width: 90%;
   max-width: 400px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* Inputs and Buttons */
 input, select, button {
   width: 100%;
   margin: 10px 0;
@@ -25,12 +44,12 @@ input, select, button {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #4e9af0;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color:#4e9af0;
 }
